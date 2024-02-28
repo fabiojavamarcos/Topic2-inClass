@@ -18,6 +18,13 @@ int main()
     Name name("Barbara");
     cout << name << endl << endl;
 
+    cout << "Enter your name: ";
+    
+    cin >> name;
+    
+    cout << name << endl << endl;
+
+
     Equipment eqp("Embraer 195");
     cout << eqp << endl << endl;
     

@@ -51,3 +51,8 @@ ostream& operator<<(ostream& out, Name& name)
     return out;
 }
 
+istream& operator>>(istream& in, Name& name)
+{
+    getline(in, name.name);
+    return in;
+}

@@ -24,6 +24,9 @@ public:
     string ToString(void);
     string GetName(void);
     friend ostream& operator<<(ostream& out, Name& name);
+    friend istream& operator>>(istream& in, Name& name);
+    
+
 };
 
 #endif /* Name_h */
